@@ -1,0 +1,134 @@
+
+*{color:white}
+:root{
+    --darkGreen:#526f2f;
+    --pinky:#fac8c5;
+    --backgoundColor:#9cb7be;
+    --myLightPink:(#ebdcd9);
+    --myLightPinkBackgroung:rgb(235,220,217,0.3);
+    --LightGreen:#a4d28a;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Lato-Regular.ttf);
+
+}
+input[type=text] {
+    --LightGreen:#a4d28a;
+
+  }
+h1{
+
+   font-size: 40px;
+    text-align: center;
+    font-family: myFirstFont;
+    font-weight: 1000;
+    color: var(--pinky);
+}  
+h2{
+font-size: 25px;
+font-family: myFirstFont;
+color: var(--darkGreen);
+background-color:var(--myLightPinkBackgroung)
+}        
+body{
+
+    background-image: url(flower.jpg) ;
+    background-size: cover;
+    padding: 50px;
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+.grid_container{
+display :grid;
+background-color:var(--myLightPinkBackgroung);
+}
+
+.item1{
+grid-column-start: 1;
+grid-column-end: 1;
+font-size: 30PX;
+font-family:myFirstFont;
+background-color:var(--backgoundColor);
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: 30PX;
+    font-family:myFirstFont;
+    background-color:var(--backgoundColor);
+}
+    
+    
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    font-size: 30PX;
+    font-family:myFirstFont;
+    background-color:var(--backgoundColor);
+} 
+
+.item4{
+grid-column-start: 4;
+grid-column-end: 4;
+font-size: 30PX;
+font-family:myFirstFont;
+background-color:var(--backgoundColor);
+}
+
+
+.ContactForm{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 20PX;
+    font-family:myFirstFont;
+    
+ }
+.itmenGender{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 17PX;
+    font-family:myFirstFont;
+    
+ }
+            
+    .itemFirstName{
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    font-size: 17PX;
+    font-family:myFirstFont;
+    
+    }
+    
+    .itemLastName{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 17px;
+    font-family:myFirstFont;
+    }
+    
+    .itemEmail{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 17PX;
+    font-family:myFirstFont;
+    }
+    
+    .itemComment{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 17PX;
+    font-family:myFirstFont;
+    }
+    .submit{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 17PX;
+        font-family:myFirstFont;
+        }
+
