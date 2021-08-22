@@ -16,21 +16,42 @@
 input[type=text] {
     --LightGreen:#a4d28a;
 
-  }
-h1{
+}
 
+@keyframes example {
+0% {color: var(--LightGreen);}
+50% {color: var(--pinky);}
+100% {color: var(--LightGreen);}
+}
+
+
+.Lihiname {
+    height: 100px;
+    color: var(--LightGreen);
+    animation: example 3s infinite;
+    grid-area: center;
+    font-size: 40px;
+    text-align: center;
+    font-family: myFirstFont;
+    font-weight: 1000;
+}
+
+
+h1{
    font-size: 40px;
     text-align: center;
     font-family: myFirstFont;
     font-weight: 1000;
-    color: var(--pinky);
-}  
+} 
+
 h2{
 font-size: 25px;
 font-family: myFirstFont;
 color: var(--darkGreen);
 background-color:var(--myLightPinkBackgroung)
-}        
+}  
+
+
 body{
 
     background-image: url(flower.jpg) ;
@@ -42,10 +63,14 @@ body{
     
 }
 
+
+
 .grid_container{
 display :grid;
 background-color:var(--myLightPinkBackgroung);
 }
+ 
+
 
 .item1{
 grid-column-start: 1;
